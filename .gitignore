@@ -1,0 +1,24 @@
+# Required Unity Names to Ignore
+**/Library/*
+Logs
+obj
+Temp
+LocalEditorFiles
+**/[Bb]uild/*
+UserSettings
+
+# Required Unity Files Unignore
+!*.meta
+!**/[Pp]ackages/**
+
+# Unity Project Visual Studio files
+*.suo
+*.vs
+*.sln
+*.csproj
+
+# DebugFileFolders
+**/DebugMeshes/**
+**/DebugExport/**
+
+!.keep
